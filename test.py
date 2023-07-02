@@ -5,7 +5,7 @@ sys.path.append('./models')
 import numpy as np
 import os, argparse
 import cv2
-from models.TR17 import SwinTransformer,SwinNet
+from models.CMWF import SwinTransformer,SwinNet
 from data import test_dataset
 
 parser = argparse.ArgumentParser()
